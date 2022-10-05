@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Sawarabi+Mincho&display=swap');
+@import url('/css/header.css');
+@import url('/css/footer.css');
+@import url('/css/responsivo.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    height: 82%;
+    width: 100%;
+    display: block;
+    background-image: url('/imgs/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.main{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.sec-nav-orçament {
+    height: 575px;
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.nav-orçament>a {
+    margin: 10px 30%;
+    border: 0.6px solid black;
+    text-decoration: none;
+    background-color: rgb(87, 87, 87);
+    color: #ffff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.nav_orçament_1 {
+    font-family: 'Sawarabi Mincho', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-orçament {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 0.80rem;
+    padding: 12px;
+    margin-bottom: 2rem;
+    border-radius: 19px;
+    background-color: rgba(250, 235, 215, 0.432);
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.frases__para__divulgação {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.nav-cardapio-sobre-nos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+
+.cardapio-sobre {
+    padding: 6px;
+    color: #000000;
+    border: 0.5px solid rgb(12, 12, 12);
+    background-color: rgba(250, 235, 215, 0.432);
+    border-radius: 6px;
+    text-decoration: none;
+}
